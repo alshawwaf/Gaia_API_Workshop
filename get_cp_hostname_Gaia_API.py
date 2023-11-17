@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 
-""" Simple code to Check the hostname using Gaia API"""
+""" 
+Simple code to Check the hostname using Gaia API
+* To Install the Python SDK:
+* pip install cp-mgmt-api-sdk
+"""
 
 import sys
 from cpapi import APIClient, APIClientArgs
 
 def main():
-    gaia_server = "203.0.113.81"
+    gaia_server = "10.0.1.10"
     username = "admin"
-    password = "vpn123"
+    password = "Cpwins!1"
 
     client_args = APIClientArgs(server=gaia_server, context='gaia_api')
     with APIClient(client_args) as client:
